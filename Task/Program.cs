@@ -92,18 +92,7 @@ namespace Task
             //CheckoutService.Checkout(customer5, cart5); 
             #endregion
 
-            try
-            {
-                var customer = new Customer("Ali", 1000);
-                var cart = new Cart();
-                cart.Add(Biscuits, 2);
-                cart.Add(tv, 1);
-                CheckoutService.Checkout(customer, cart);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("⚠️ Error: " + ex.Message);
-            }
+          
         }
 
 
